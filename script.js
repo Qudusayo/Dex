@@ -51,6 +51,10 @@ async function listAvailableTokens() {
     };
     parent.appendChild(div);
   }
+
+  currentTrade.to = tokens["0xacfc95585d80ab62f67a14c566c1b7a49fe91167"];
+  currentTrade.from = tokens["0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5"];
+  renderInterface();
 }
 
 function selectToken(address) {
